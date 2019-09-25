@@ -1,5 +1,5 @@
-#CSS 2
-##CSS etiqueta para aplicar el box-sizing a toda la pagina.
+# CSS
+## CSS etiqueta para aplicar el box-sizing a toda la pagina.
 Para aplicarlo a toda la pagina se utiliza este codigo *Incluye los pseudocodigos:*
 ```
 *, *::before,::after,*:before,*:after{

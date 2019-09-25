@@ -5,4 +5,9 @@ div{
     background-color: salmon;
     padding: 5rem;
     border: 20px  solid blue;
+    overflow: auto;
+    /*
+        El overflow crea una barrra para 
+        poder ver todo el texto si se sale
+    */
 }

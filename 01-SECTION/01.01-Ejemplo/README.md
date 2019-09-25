@@ -18,7 +18,7 @@ div{
     border: 20px  solid blue;
 }
 ```
-Si el texto se que hemos añadido se sale de las dimensiones
+Si el texto que hemos añadido se sale de las dimensiones
 establecidas podemos añadir un:
 ```
 div{

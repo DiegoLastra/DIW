@@ -1,0 +1,22 @@
+#uno{
+    height: 10rem;
+}
+#dos{
+    height: 20rem;
+}
+#tres{
+    height: 40rem;
+}
+
+div {
+    background-color: salmon;
+    color: white;
+    border: 1px solid;
+    width: 20rem;
+    padding: 2em;
+
+    display: inline-block;
+    vertical-align: top;//alinea por arriba
+    vertical-align: bottom;//alinea abajo
+    vertical-align: middle;//alinea en el medio
+}

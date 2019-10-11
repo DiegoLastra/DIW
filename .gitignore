@@ -1,5 +1,5 @@
 prepros*.config
 **/css/*.map
-.vscode/settings.json
 **/css/*.css
-**/css/reset/.css
+!**/css/reset.css
+.vscode/settings.json

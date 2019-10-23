@@ -1,0 +1,30 @@
+.card {
+    height: 20rem;
+    width: 15rem;
+    background-color: deepskyblue;
+    border: 10px solid #DDD;
+    color: white;
+    font-size: 3em;
+    padding: 1em;
+    &:hover{
+        background: rgba(0, 0, 255, 0.404);
+        color: black;
+    }
+}
+$x: random(5);
+@for $i from 1 through 5 {
+    .card:nth-child(#{$i}) {
+        position: absolute;
+        left: 6rem * ($i - 1);
+        top: 6rem * ($i - 1);
+        @if ($i == $x) {
+            background-color: red;
+            z-index: $x;
+            &:hover{
+                background: rgba(128, 128, 128, 0.253);
+                color: blue;
+            }
+        }
+    }
+}
+

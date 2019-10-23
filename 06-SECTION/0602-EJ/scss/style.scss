@@ -1,0 +1,30 @@
+.padre{
+    height: 30rem;
+    width: 70%;
+    margin: 3rem auto 0;
+    background-color: lighten(gray,20%);
+
+
+}
+.hijo{
+    //1 parte
+    height: 10rem;
+    width: 10rem;
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 10rem;//solo sirve para una sola linea
+    border: 5px solid darken($color: deepskyblue, $amount: 20%);
+    font-size: 5rem;
+
+}
+#hijo1{
+    position: absolute;
+    //funciona respecto al primer ancestro que tenga cualquier position a excepcion de static
+    top: 1rem;
+    left: 1rem;
+}
+#hijo2{
+    position: absolute;
+    bottom: 5rem;
+}

@@ -1,11 +1,19 @@
+
 ul {
     background-color: salmon;
     color: white; // Tipografía en color blanco, para que cuando establezcamos los elementos en float: left el contenedor pierda su altura y no veamos nada
-    overflow: hidden; // Método 1. Para restablecer la altura del contenedor
+    // overflow: hidden; // Método 1. Para restablecer la altura del contenedor
     border: 1px solid black;
-
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+        // height: 5px;
+        // background-color: gray;
+        
+    }
     li {
-        float: right; 
+        float: left; 
         background-color: deepskyblue;
         margin: 1em;
         a {
@@ -14,53 +22,6 @@ ul {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ¿Que pasaría si yo quisiera flotar los elementos a la derecha
 /* 
